@@ -1,0 +1,13 @@
+dubbo:
+  application:
+    name: regiset_web
+  registry:
+    address: zookeeper://192.168.114.168:2181
+  consumer:
+    check: false
+    timeout: 50000
+    retries: 3
+
+spring:
+  thymeleaf:
+    cache: false

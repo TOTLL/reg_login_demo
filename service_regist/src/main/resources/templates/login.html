@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>登陆</h1>
+<form action="/userLogin/login" method="post">
+    <table>
+        <tr>
+            <td>用户名</td>
+            <td><input name="name"></td>
+            </tr>
+        <tr>
+            <td>密码</td>
+            <td><input name="password"><br/></td>
+        </tr>
+        <tr>
+            <td><button>登陆</button><a href="/userLogin/findpwd">忘记密码？</a></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

@@ -1,0 +1,20 @@
+spring:
+  mail:
+    #配置发送方协议
+    protocol: smtp
+    #配置smtp服务器地址
+    host: smtp.sina.com
+    #发送方的邮箱
+    username: ponymei@sina.com
+    #发送方的密码
+    password: q453609928
+
+dubbo:
+  application:
+    name: send_email
+  consumer:
+    check: false
+  protocol:
+    port: -1
+  registry:
+    address: zookeeper://192.168.114.168:2181
